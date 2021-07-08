@@ -25,3 +25,4 @@ enum ImageResponse
     case timeOut(description: ServerError)
     case noConnection(description: ServerError)
 }
+

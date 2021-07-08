@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  myPokemon
+//  faceIDLogin
 //
-//  Created by Kell Lanes on 06/07/21.
+//  Created by Kell Lanes on 07/07/21.
 //
 
 import UIKit

@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E2A0D7926948C7D00E5E847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A0D7826948C7D00E5E847 /* AppDelegate.swift */; };
-		8E2A0D7B26948C7D00E5E847 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A0D7A26948C7D00E5E847 /* SceneDelegate.swift */; };
-		8E2A0D7D26948C7D00E5E847 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A0D7C26948C7D00E5E847 /* ViewController.swift */; };
-		8E2A0D8026948C7D00E5E847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2A0D7E26948C7D00E5E847 /* Main.storyboard */; };
-		8E2A0D8226948C7E00E5E847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2A0D8126948C7E00E5E847 /* Assets.xcassets */; };
-		8E2A0D8526948C7E00E5E847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2A0D8326948C7E00E5E847 /* LaunchScreen.storyboard */; };
-		8E2A0D9026948C7E00E5E847 /* myPokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A0D8F26948C7E00E5E847 /* myPokemonTests.swift */; };
-		8E2A0D9B26948C7E00E5E847 /* myPokemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A0D9A26948C7E00E5E847 /* myPokemonUITests.swift */; };
+		8EE931DB2696126600A5A8DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE931DA2696126600A5A8DE /* AppDelegate.swift */; };
+		8EE931DD2696126600A5A8DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE931DC2696126600A5A8DE /* SceneDelegate.swift */; };
+		8EE931DF2696126600A5A8DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE931DE2696126600A5A8DE /* ViewController.swift */; };
+		8EE931E22696126600A5A8DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE931E02696126600A5A8DE /* Main.storyboard */; };
+		8EE931E42696126700A5A8DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE931E32696126700A5A8DE /* Assets.xcassets */; };
+		8EE931E72696126700A5A8DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE931E52696126700A5A8DE /* LaunchScreen.storyboard */; };
+		8EE931F22696126800A5A8DE /* faceIDLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE931F12696126800A5A8DE /* faceIDLoginTests.swift */; };
+		8EE931FD2696126800A5A8DE /* faceIDLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE931FC2696126800A5A8DE /* faceIDLoginUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8E2A0D8C26948C7E00E5E847 /* PBXContainerItemProxy */ = {
+		8EE931EE2696126800A5A8DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8E2A0D6D26948C7D00E5E847 /* Project object */;
+			containerPortal = 8EE931CF2696126600A5A8DE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E2A0D7426948C7D00E5E847;
-			remoteInfo = myPokemon;
+			remoteGlobalIDString = 8EE931D62696126600A5A8DE;
+			remoteInfo = faceIDLogin;
 		};
-		8E2A0D9726948C7E00E5E847 /* PBXContainerItemProxy */ = {
+		8EE931F92696126800A5A8DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8E2A0D6D26948C7D00E5E847 /* Project object */;
+			containerPortal = 8EE931CF2696126600A5A8DE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E2A0D7426948C7D00E5E847;
-			remoteInfo = myPokemon;
+			remoteGlobalIDString = 8EE931D62696126600A5A8DE;
+			remoteInfo = faceIDLogin;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8E2A0D7526948C7D00E5E847 /* myPokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myPokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E2A0D7826948C7D00E5E847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E2A0D7A26948C7D00E5E847 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8E2A0D7C26948C7D00E5E847 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8E2A0D7F26948C7D00E5E847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E2A0D8126948C7E00E5E847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E2A0D8426948C7E00E5E847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8E2A0D8626948C7E00E5E847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E2A0D8B26948C7E00E5E847 /* myPokemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myPokemonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E2A0D8F26948C7E00E5E847 /* myPokemonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPokemonTests.swift; sourceTree = "<group>"; };
-		8E2A0D9126948C7E00E5E847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E2A0D9626948C7E00E5E847 /* myPokemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myPokemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E2A0D9A26948C7E00E5E847 /* myPokemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPokemonUITests.swift; sourceTree = "<group>"; };
-		8E2A0D9C26948C7E00E5E847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE931D72696126600A5A8DE /* faceIDLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faceIDLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE931DA2696126600A5A8DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EE931DC2696126600A5A8DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8EE931DE2696126600A5A8DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EE931E12696126600A5A8DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EE931E32696126700A5A8DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EE931E62696126700A5A8DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EE931E82696126700A5A8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE931ED2696126800A5A8DE /* faceIDLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = faceIDLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE931F12696126800A5A8DE /* faceIDLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faceIDLoginTests.swift; sourceTree = "<group>"; };
+		8EE931F32696126800A5A8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE931F82696126800A5A8DE /* faceIDLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = faceIDLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE931FC2696126800A5A8DE /* faceIDLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faceIDLoginUITests.swift; sourceTree = "<group>"; };
+		8EE931FE2696126800A5A8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8E2A0D7226948C7D00E5E847 /* Frameworks */ = {
+		8EE931D42696126600A5A8DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E2A0D8826948C7E00E5E847 /* Frameworks */ = {
+		8EE931EA2696126800A5A8DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E2A0D9326948C7E00E5E847 /* Frameworks */ = {
+		8EE931F52696126800A5A8DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,137 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8E2A0D6C26948C7D00E5E847 = {
+		8EE931CE2696126600A5A8DE = {
 			isa = PBXGroup;
 			children = (
-				8E2A0D7726948C7D00E5E847 /* myPokemon */,
-				8E2A0D8E26948C7E00E5E847 /* myPokemonTests */,
-				8E2A0D9926948C7E00E5E847 /* myPokemonUITests */,
-				8E2A0D7626948C7D00E5E847 /* Products */,
+				8EE931D92696126600A5A8DE /* faceIDLogin */,
+				8EE931F02696126800A5A8DE /* faceIDLoginTests */,
+				8EE931FB2696126800A5A8DE /* faceIDLoginUITests */,
+				8EE931D82696126600A5A8DE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8E2A0D7626948C7D00E5E847 /* Products */ = {
+		8EE931D82696126600A5A8DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E2A0D7526948C7D00E5E847 /* myPokemon.app */,
-				8E2A0D8B26948C7E00E5E847 /* myPokemonTests.xctest */,
-				8E2A0D9626948C7E00E5E847 /* myPokemonUITests.xctest */,
+				8EE931D72696126600A5A8DE /* faceIDLogin.app */,
+				8EE931ED2696126800A5A8DE /* faceIDLoginTests.xctest */,
+				8EE931F82696126800A5A8DE /* faceIDLoginUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E2A0D7726948C7D00E5E847 /* myPokemon */ = {
+		8EE931D92696126600A5A8DE /* faceIDLogin */ = {
 			isa = PBXGroup;
 			children = (
-				8E2A0D7826948C7D00E5E847 /* AppDelegate.swift */,
-				8E2A0D7A26948C7D00E5E847 /* SceneDelegate.swift */,
-				8E2A0D7C26948C7D00E5E847 /* ViewController.swift */,
-				8E2A0D7E26948C7D00E5E847 /* Main.storyboard */,
-				8E2A0D8126948C7E00E5E847 /* Assets.xcassets */,
-				8E2A0D8326948C7E00E5E847 /* LaunchScreen.storyboard */,
-				8E2A0D8626948C7E00E5E847 /* Info.plist */,
+				8EE931DA2696126600A5A8DE /* AppDelegate.swift */,
+				8EE931DC2696126600A5A8DE /* SceneDelegate.swift */,
+				8EE931DE2696126600A5A8DE /* ViewController.swift */,
+				8EE931E02696126600A5A8DE /* Main.storyboard */,
+				8EE931E32696126700A5A8DE /* Assets.xcassets */,
+				8EE931E52696126700A5A8DE /* LaunchScreen.storyboard */,
+				8EE931E82696126700A5A8DE /* Info.plist */,
 			);
-			path = myPokemon;
+			path = faceIDLogin;
 			sourceTree = "<group>";
 		};
-		8E2A0D8E26948C7E00E5E847 /* myPokemonTests */ = {
+		8EE931F02696126800A5A8DE /* faceIDLoginTests */ = {
 			isa = PBXGroup;
 			children = (
-				8E2A0D8F26948C7E00E5E847 /* myPokemonTests.swift */,
-				8E2A0D9126948C7E00E5E847 /* Info.plist */,
+				8EE931F12696126800A5A8DE /* faceIDLoginTests.swift */,
+				8EE931F32696126800A5A8DE /* Info.plist */,
 			);
-			path = myPokemonTests;
+			path = faceIDLoginTests;
 			sourceTree = "<group>";
 		};
-		8E2A0D9926948C7E00E5E847 /* myPokemonUITests */ = {
+		8EE931FB2696126800A5A8DE /* faceIDLoginUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8E2A0D9A26948C7E00E5E847 /* myPokemonUITests.swift */,
-				8E2A0D9C26948C7E00E5E847 /* Info.plist */,
+				8EE931FC2696126800A5A8DE /* faceIDLoginUITests.swift */,
+				8EE931FE2696126800A5A8DE /* Info.plist */,
 			);
-			path = myPokemonUITests;
+			path = faceIDLoginUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E2A0D7426948C7D00E5E847 /* myPokemon */ = {
+		8EE931D62696126600A5A8DE /* faceIDLogin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E2A0D9F26948C7E00E5E847 /* Build configuration list for PBXNativeTarget "myPokemon" */;
+			buildConfigurationList = 8EE932012696126800A5A8DE /* Build configuration list for PBXNativeTarget "faceIDLogin" */;
 			buildPhases = (
-				8E2A0D7126948C7D00E5E847 /* Sources */,
-				8E2A0D7226948C7D00E5E847 /* Frameworks */,
-				8E2A0D7326948C7D00E5E847 /* Resources */,
+				8EE931D32696126600A5A8DE /* Sources */,
+				8EE931D42696126600A5A8DE /* Frameworks */,
+				8EE931D52696126600A5A8DE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = myPokemon;
-			productName = myPokemon;
-			productReference = 8E2A0D7526948C7D00E5E847 /* myPokemon.app */;
+			name = faceIDLogin;
+			productName = faceIDLogin;
+			productReference = 8EE931D72696126600A5A8DE /* faceIDLogin.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8E2A0D8A26948C7E00E5E847 /* myPokemonTests */ = {
+		8EE931EC2696126800A5A8DE /* faceIDLoginTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E2A0DA226948C7E00E5E847 /* Build configuration list for PBXNativeTarget "myPokemonTests" */;
+			buildConfigurationList = 8EE932042696126800A5A8DE /* Build configuration list for PBXNativeTarget "faceIDLoginTests" */;
 			buildPhases = (
-				8E2A0D8726948C7E00E5E847 /* Sources */,
-				8E2A0D8826948C7E00E5E847 /* Frameworks */,
-				8E2A0D8926948C7E00E5E847 /* Resources */,
+				8EE931E92696126800A5A8DE /* Sources */,
+				8EE931EA2696126800A5A8DE /* Frameworks */,
+				8EE931EB2696126800A5A8DE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E2A0D8D26948C7E00E5E847 /* PBXTargetDependency */,
+				8EE931EF2696126800A5A8DE /* PBXTargetDependency */,
 			);
-			name = myPokemonTests;
-			productName = myPokemonTests;
-			productReference = 8E2A0D8B26948C7E00E5E847 /* myPokemonTests.xctest */;
+			name = faceIDLoginTests;
+			productName = faceIDLoginTests;
+			productReference = 8EE931ED2696126800A5A8DE /* faceIDLoginTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8E2A0D9526948C7E00E5E847 /* myPokemonUITests */ = {
+		8EE931F72696126800A5A8DE /* faceIDLoginUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E2A0DA526948C7E00E5E847 /* Build configuration list for PBXNativeTarget "myPokemonUITests" */;
+			buildConfigurationList = 8EE932072696126800A5A8DE /* Build configuration list for PBXNativeTarget "faceIDLoginUITests" */;
 			buildPhases = (
-				8E2A0D9226948C7E00E5E847 /* Sources */,
-				8E2A0D9326948C7E00E5E847 /* Frameworks */,
-				8E2A0D9426948C7E00E5E847 /* Resources */,
+				8EE931F42696126800A5A8DE /* Sources */,
+				8EE931F52696126800A5A8DE /* Frameworks */,
+				8EE931F62696126800A5A8DE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E2A0D9826948C7E00E5E847 /* PBXTargetDependency */,
+				8EE931FA2696126800A5A8DE /* PBXTargetDependency */,
 			);
-			name = myPokemonUITests;
-			productName = myPokemonUITests;
-			productReference = 8E2A0D9626948C7E00E5E847 /* myPokemonUITests.xctest */;
+			name = faceIDLoginUITests;
+			productName = faceIDLoginUITests;
+			productReference = 8EE931F82696126800A5A8DE /* faceIDLoginUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8E2A0D6D26948C7D00E5E847 /* Project object */ = {
+		8EE931CF2696126600A5A8DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					8E2A0D7426948C7D00E5E847 = {
+					8EE931D62696126600A5A8DE = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					8E2A0D8A26948C7E00E5E847 = {
+					8EE931EC2696126800A5A8DE = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 8E2A0D7426948C7D00E5E847;
+						TestTargetID = 8EE931D62696126600A5A8DE;
 					};
-					8E2A0D9526948C7E00E5E847 = {
+					8EE931F72696126800A5A8DE = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 8E2A0D7426948C7D00E5E847;
+						TestTargetID = 8EE931D62696126600A5A8DE;
 					};
 				};
 			};
-			buildConfigurationList = 8E2A0D7026948C7D00E5E847 /* Build configuration list for PBXProject "myPokemon" */;
+			buildConfigurationList = 8EE931D22696126600A5A8DE /* Build configuration list for PBXProject "faceIDLogin" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 8E2A0D6C26948C7D00E5E847;
-			productRefGroup = 8E2A0D7626948C7D00E5E847 /* Products */;
+			mainGroup = 8EE931CE2696126600A5A8DE;
+			productRefGroup = 8EE931D82696126600A5A8DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E2A0D7426948C7D00E5E847 /* myPokemon */,
-				8E2A0D8A26948C7E00E5E847 /* myPokemonTests */,
-				8E2A0D9526948C7E00E5E847 /* myPokemonUITests */,
+				8EE931D62696126600A5A8DE /* faceIDLogin */,
+				8EE931EC2696126800A5A8DE /* faceIDLoginTests */,
+				8EE931F72696126800A5A8DE /* faceIDLoginUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8E2A0D7326948C7D00E5E847 /* Resources */ = {
+		8EE931D52696126600A5A8DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E2A0D8526948C7E00E5E847 /* LaunchScreen.storyboard in Resources */,
-				8E2A0D8226948C7E00E5E847 /* Assets.xcassets in Resources */,
-				8E2A0D8026948C7D00E5E847 /* Main.storyboard in Resources */,
+				8EE931E72696126700A5A8DE /* LaunchScreen.storyboard in Resources */,
+				8EE931E42696126700A5A8DE /* Assets.xcassets in Resources */,
+				8EE931E22696126600A5A8DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E2A0D8926948C7E00E5E847 /* Resources */ = {
+		8EE931EB2696126800A5A8DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E2A0D9426948C7E00E5E847 /* Resources */ = {
+		8EE931F62696126800A5A8DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,60 +254,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8E2A0D7126948C7D00E5E847 /* Sources */ = {
+		8EE931D32696126600A5A8DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E2A0D7D26948C7D00E5E847 /* ViewController.swift in Sources */,
-				8E2A0D7926948C7D00E5E847 /* AppDelegate.swift in Sources */,
-				8E2A0D7B26948C7D00E5E847 /* SceneDelegate.swift in Sources */,
+				8EE931DF2696126600A5A8DE /* ViewController.swift in Sources */,
+				8EE931DB2696126600A5A8DE /* AppDelegate.swift in Sources */,
+				8EE931DD2696126600A5A8DE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E2A0D8726948C7E00E5E847 /* Sources */ = {
+		8EE931E92696126800A5A8DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E2A0D9026948C7E00E5E847 /* myPokemonTests.swift in Sources */,
+				8EE931F22696126800A5A8DE /* faceIDLoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E2A0D9226948C7E00E5E847 /* Sources */ = {
+		8EE931F42696126800A5A8DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E2A0D9B26948C7E00E5E847 /* myPokemonUITests.swift in Sources */,
+				8EE931FD2696126800A5A8DE /* faceIDLoginUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8E2A0D8D26948C7E00E5E847 /* PBXTargetDependency */ = {
+		8EE931EF2696126800A5A8DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E2A0D7426948C7D00E5E847 /* myPokemon */;
-			targetProxy = 8E2A0D8C26948C7E00E5E847 /* PBXContainerItemProxy */;
+			target = 8EE931D62696126600A5A8DE /* faceIDLogin */;
+			targetProxy = 8EE931EE2696126800A5A8DE /* PBXContainerItemProxy */;
 		};
-		8E2A0D9826948C7E00E5E847 /* PBXTargetDependency */ = {
+		8EE931FA2696126800A5A8DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E2A0D7426948C7D00E5E847 /* myPokemon */;
-			targetProxy = 8E2A0D9726948C7E00E5E847 /* PBXContainerItemProxy */;
+			target = 8EE931D62696126600A5A8DE /* faceIDLogin */;
+			targetProxy = 8EE931F92696126800A5A8DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8E2A0D7E26948C7D00E5E847 /* Main.storyboard */ = {
+		8EE931E02696126600A5A8DE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8E2A0D7F26948C7D00E5E847 /* Base */,
+				8EE931E12696126600A5A8DE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8E2A0D8326948C7E00E5E847 /* LaunchScreen.storyboard */ = {
+		8EE931E52696126700A5A8DE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8E2A0D8426948C7E00E5E847 /* Base */,
+				8EE931E62696126700A5A8DE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -315,7 +315,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8E2A0D9D26948C7E00E5E847 /* Debug */ = {
+		8EE931FF2696126800A5A8DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		8E2A0D9E26948C7E00E5E847 /* Release */ = {
+		8EE932002696126800A5A8DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -431,168 +431,168 @@
 			};
 			name = Release;
 		};
-		8E2A0DA026948C7E00E5E847 /* Debug */ = {
+		8EE932022696126800A5A8DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB4CXN894G;
-				INFOPLIST_FILE = myPokemon/Info.plist;
+				INFOPLIST_FILE = faceIDLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.kell.myPokemon;
+				PRODUCT_BUNDLE_IDENTIFIER = br.kell.faceIDLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8E2A0DA126948C7E00E5E847 /* Release */ = {
+		8EE932032696126800A5A8DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB4CXN894G;
-				INFOPLIST_FILE = myPokemon/Info.plist;
+				INFOPLIST_FILE = faceIDLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.kell.myPokemon;
+				PRODUCT_BUNDLE_IDENTIFIER = br.kell.faceIDLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		8E2A0DA326948C7E00E5E847 /* Debug */ = {
+		8EE932052696126800A5A8DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB4CXN894G;
-				INFOPLIST_FILE = myPokemonTests/Info.plist;
+				INFOPLIST_FILE = faceIDLoginTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.kell.myPokemonTests;
+				PRODUCT_BUNDLE_IDENTIFIER = br.kell.faceIDLoginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myPokemon.app/myPokemon";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/faceIDLogin.app/faceIDLogin";
 			};
 			name = Debug;
 		};
-		8E2A0DA426948C7E00E5E847 /* Release */ = {
+		8EE932062696126800A5A8DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB4CXN894G;
-				INFOPLIST_FILE = myPokemonTests/Info.plist;
+				INFOPLIST_FILE = faceIDLoginTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.kell.myPokemonTests;
+				PRODUCT_BUNDLE_IDENTIFIER = br.kell.faceIDLoginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myPokemon.app/myPokemon";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/faceIDLogin.app/faceIDLogin";
 			};
 			name = Release;
 		};
-		8E2A0DA626948C7E00E5E847 /* Debug */ = {
+		8EE932082696126800A5A8DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB4CXN894G;
-				INFOPLIST_FILE = myPokemonUITests/Info.plist;
+				INFOPLIST_FILE = faceIDLoginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.kell.myPokemonUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = br.kell.faceIDLoginUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = myPokemon;
+				TEST_TARGET_NAME = faceIDLogin;
 			};
 			name = Debug;
 		};
-		8E2A0DA726948C7E00E5E847 /* Release */ = {
+		8EE932092696126800A5A8DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB4CXN894G;
-				INFOPLIST_FILE = myPokemonUITests/Info.plist;
+				INFOPLIST_FILE = faceIDLoginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.kell.myPokemonUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = br.kell.faceIDLoginUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = myPokemon;
+				TEST_TARGET_NAME = faceIDLogin;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E2A0D7026948C7D00E5E847 /* Build configuration list for PBXProject "myPokemon" */ = {
+		8EE931D22696126600A5A8DE /* Build configuration list for PBXProject "faceIDLogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E2A0D9D26948C7E00E5E847 /* Debug */,
-				8E2A0D9E26948C7E00E5E847 /* Release */,
+				8EE931FF2696126800A5A8DE /* Debug */,
+				8EE932002696126800A5A8DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E2A0D9F26948C7E00E5E847 /* Build configuration list for PBXNativeTarget "myPokemon" */ = {
+		8EE932012696126800A5A8DE /* Build configuration list for PBXNativeTarget "faceIDLogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E2A0DA026948C7E00E5E847 /* Debug */,
-				8E2A0DA126948C7E00E5E847 /* Release */,
+				8EE932022696126800A5A8DE /* Debug */,
+				8EE932032696126800A5A8DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E2A0DA226948C7E00E5E847 /* Build configuration list for PBXNativeTarget "myPokemonTests" */ = {
+		8EE932042696126800A5A8DE /* Build configuration list for PBXNativeTarget "faceIDLoginTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E2A0DA326948C7E00E5E847 /* Debug */,
-				8E2A0DA426948C7E00E5E847 /* Release */,
+				8EE932052696126800A5A8DE /* Debug */,
+				8EE932062696126800A5A8DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E2A0DA526948C7E00E5E847 /* Build configuration list for PBXNativeTarget "myPokemonUITests" */ = {
+		8EE932072696126800A5A8DE /* Build configuration list for PBXNativeTarget "faceIDLoginUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E2A0DA626948C7E00E5E847 /* Debug */,
-				8E2A0DA726948C7E00E5E847 /* Release */,
+				8EE932082696126800A5A8DE /* Debug */,
+				8EE932092696126800A5A8DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8E2A0D6D26948C7D00E5E847 /* Project object */;
+	rootObject = 8EE931CF2696126600A5A8DE /* Project object */;
 }

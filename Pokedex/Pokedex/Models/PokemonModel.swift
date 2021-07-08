@@ -11,6 +11,7 @@ struct PokemonModel
     var id: Int
     var name: String
     var urlImage: String
+    
 }
 extension PokemonModel
 {
@@ -19,5 +20,6 @@ extension PokemonModel
         self.id = 0
         self.name = ""
         self.urlImage = ""
+        
     }
 }
