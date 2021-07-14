@@ -4,7 +4,7 @@ import Foundation
 import Alamofire //Importação do Alamofire
 
 struct PokemonAPIURL {
-    static let Main: String = "http://pokeapi.co/api/v2/pokemon/"
+    static let Main: String = "http://pokeapi.co/api/v2/pokemon"
 }
 
 typealias PokedexCompletion = (_ response: PokedexResponse) -> Void
@@ -72,7 +72,7 @@ class ResquestPokedex
     func getPokemon(id:Int, completion:@escaping (_ response: PokemonResponse) -> Void)
     {
         
-        alamofireManager.request("\(PokemonAPIURL.Main)\(id)/", method: .get, parameters: nil, encoding: JSONEncoding.default).responseJSON
+        alamofireManager.request("\(PokemonAPIURL.Main)/\(id)/", method: .get, parameters: nil, encoding: JSONEncoding.default).responseJSON
             { (response) in
                 
                 let statusCode = response.response?.statusCode
@@ -91,6 +91,7 @@ class ResquestPokedex
                     else if statusCode == 200
                     {
                         //Mando para o parse dos pokemons
+                        self.getColorPokemon(id: id)
                         let model = self.parse.parsePokemon(response: resultValue)
                         completion(.success(model: model))
                     }
@@ -136,7 +137,43 @@ class ResquestPokedex
         }
     }
 
-
+    func getColorPokemon(id:Int)
+    {
+        
+        alamofireManager.request("\(PokemonAPIURL.Main)-species/\(id)/", method: .get, parameters: nil, encoding: JSONEncoding.default).responseJSON
+            { (response) in
+                
+                let statusCode = response.response?.statusCode
+                switch response.result
+                {
+                case .success(let value):
+                    let resultValue = value as? [String: Any]
+                    
+                    
+                    if statusCode == 200
+                    {
+                        //Mando para o parse dos pokemons
+                        let model = self.parse.parsePokemon(response: resultValue)
+                        
+                        
+                    }
+                case .failure(let error):
+                    let errorCode = error._code
+                    if errorCode == -1009
+                    {
+                        let erro = ServerError(msgError: error.localizedDescription, statusCode: errorCode)
+                        
+                    }
+                    else if errorCode == -1001
+                    {
+                        let erro = ServerError(msgError: error.localizedDescription, statusCode: errorCode)
+                       
+                    }
+                }
+        }
+    }
+    
+    
     
 }
 
